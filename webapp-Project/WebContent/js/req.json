@@ -1,0 +1,92 @@
+[
+{
+"id":"game",
+"Name" : "Online Gaming World",
+"imageUrl":"img/35045.png" ,
+"share" : "14"
+},
+{
+"id":"ipo",
+"Name" : "Recent I.p.o",
+"imageUrl":"img/460.png",
+"share" : "10.3"
+},
+{
+"id":"dollars",
+"Name" : "Digital Dollars",
+"imageUrl":"img/47895.png" ,
+"share" : "9"
+},
+{
+"id":"income",
+"Name" : "Income Inequality",
+"imageUrl":"img/482.png" ,
+"share" : "8.5"
+},
+{
+"id":"flight",
+"Name" : "Taking Flight",
+"imageUrl":"img/486.png" ,
+"share" : "12"
+},
+{
+"id":"tasty",
+"Name" : "Healthy and Tasty",
+"imageUrl":"img/502.png" ,
+"share" : "8"
+},
+{
+"id":"pet",
+"Name" : "Pet Passion",
+"imageUrl":"img/514.png" ,
+"share" : "6.7"
+},
+{
+"id":"nation",
+"Name" : "Discount Nation",
+"imageUrl":"img/338.png" ,
+"share" : "8.4"
+},
+  {
+  "id":"tablet",
+  "Name": "Tablet Takeover",
+  "imageUrl":"img/244.png" ,
+  "share":"8.7"
+  },
+  {
+  "id":"cyber",
+  "Name": "Cyber Security",
+  "imageUrl":"img/336.png" ,
+  "share":"9.8"
+  },
+  {
+  "id":"on",
+  "Name": "On the Road",
+  "imageUrl":"img/13741.png" ,
+  "share":"7.6"
+  },
+  {
+  "id":"housing",
+  "Name": "Eating Out ",
+  "imageUrl":"img/518.png" ,
+  "share":"5.6"
+  },
+  {
+  "id":"hot",
+  "Name": "Hot Retail",
+   "imageUrl":"img/7077.png" ,
+   "share":"9.9"
+   },
+   {
+   "id":"home",
+   "Name": "Home Improvement",
+    "imageUrl":"img/342.png" ,
+   "share":"10.5."
+   },
+  {
+  "id":"tech",
+  "Name": "Q E Japan",
+   "imageUrl":"img/4347.png" ,
+   "share":"7.6"
+  }
+  ]

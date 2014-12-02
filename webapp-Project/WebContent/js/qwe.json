@@ -1,0 +1,50 @@
+[
+{
+"id":"game",
+"Name" : "Magazzini Alimentari Riuniti",
+"imageUrl":"img/35045.png" ,
+"share" : "14"
+},
+{
+"id":"ipo",
+"Name" : "Recent I.p.o",
+"imageUrl":"img/460.png",
+"share" : "10.3"
+},
+{
+"id":"dollars",
+"Name" : "Digital Dollars",
+"imageUrl":"img/47895.png" ,
+"share" : "9"
+},
+{
+"id":"income",
+"Name" : "Income Inequality",
+"imageUrl":"img/482.png" ,
+"share" : "8.5"
+},
+{
+"id":"flight",
+"Name" : "Taking Flight",
+"imageUrl":"img/486.png" ,
+"share" : "12"
+},
+{
+"id":"tasty",
+"Name" : "Healthy and Tasty",
+"imageUrl":"img/502.png" ,
+"share" : "8"
+},
+{
+"id":"pet",
+"Name" : "Pet Passion",
+"imageUrl":"img/514.png" ,
+"share" : "6.7"
+},
+{
+"id":"nation",
+"Name" : "Discount Nation",
+"imageUrl":"img/image1.jpg" ,
+"share" : "8.4"
+}
+]
