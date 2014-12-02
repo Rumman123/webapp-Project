@@ -1,63 +1,42 @@
 <!DOCTYPE HTML>
 <html lang="en">
- <head>
-   <meta charset="utf-8">
-   <title>Image Gallery</title>
-   
-   <script src="bootstrap/bootstrap-3.2.0-dist/css/bootstrap.css"></script>
-   <script src= "angularjs/angular-1.2.27/angular.js"></script>
-<link href="bootstrap/bootstrap-3.2.0-dist/css/bootstrap.css" rel="stylesheet">
+<head>
+<meta charset="utf-8">
+<title>Image Gallery</title>
+
+<script src="bootstrap/bootstrap-3.2.0-dist/css/bootstrap.css"></script>
+<script src="angularjs/angular-1.2.27/angular.js"></script>
+<link href="bootstrap/bootstrap-3.2.0-dist/css/bootstrap.css"
+	rel="stylesheet">
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 
 <script src="js/controller.js"></script>
 <style>
 body {
-  padding-top: 20px;
-}
-.arrow-up {
-	width: 0; 
-	height: 0; 
-	border-left: 13px solid transparent;
-	border-right: 13px solid transparent;
-	
-	border-bottom: 13px solid green;
+	padding-top: 20px;
 }
 
-
-.col-sm-4 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+.pad10 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 </style>
-   </head>
-   <body>
- <div ng-app="" ng-controller="imagesController"> 
-<div class="container">
-
-<ul class="images">
-<div class="row">
-
-<li ng-repeat="image in images" class="thumbnail">
-
-<div class="col-sm-4">
-
-<a href="#/images/{{image.id}}" class="thumb"><img ng-src="{{image.imageUrl}}"></a>
-<a href="#/images/{{image.id}}"><div class="text-center">{{image.Name}}</div></a>
-<p><div class="arrow-up"></div><div class="text-center" >{{image.share}}% </div></p>
-</div> </li> </div></ul>
-
-</div>
-
-</div>
-</div>
+</head>
+<body>
+	<div ng-app="" ng-controller="imagesController">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 pad10" ng-repeat="image in images">
 
 
+					<a href="#/images/{{image.id}}" class="thumb"><img ng-src="{{image.imageUrl}}"></a>
 
 
-
- 
-
- </body>
- </html>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
