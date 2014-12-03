@@ -12,31 +12,48 @@
 
 <script src="js/controller.js"></script>
 <style>
+
 body {
-	padding-top: 20px;
+  padding-top: 20px;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	float:center;
+	border-bottom: 13px solid green;
+}
+thumb{
+float:center;
 }
 
-.pad10 {
-	position: relative;
-	min-height: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
+.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.images  {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
 }
 </style>
 </head>
 <body>
-	<div ng-app="" ng-controller="imagesController">
+	<div ng-app="" ng-controller="shareController">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 pad10" ng-repeat="image in images">
-
-
-					<a href="#/images/{{image.id}}" class="thumb"><img ng-src="{{image.imageUrl}}"></a>
-
-
-				</div>
-			</div>
-		</div>
-	</div>
+				<div class="images">
+				<div class="col-md-4" ng-repeat="image in images">
+                 <a href="#/images/{{image.id}}" class="thumb"><img ng-src="{{image.imageUrl}}"></a>
+                   <a href="#/images/{{image.id}}"><div class="text-left">{{image.Name}}</div></a>
+<p><div class="arrow-up"><div class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{image.share}}% </div></div></p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
