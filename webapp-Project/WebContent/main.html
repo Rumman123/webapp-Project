@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" ng-app="shareApp">
 <head>
 <meta charset="utf-8">
 <title>Image Gallery</title>
@@ -9,10 +9,10 @@
 <link href="bootstrap/bootstrap-3.2.0-dist/css/bootstrap.css"
 	rel="stylesheet">
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
-
+<script src="angularjs/angular-1.2.27/angular-route.js"></script>
+<script src="js/app.js"></script>
 <script src="js/controller.js"></script>
 <style>
-
 body {
   padding-top: 20px;
 }
@@ -27,7 +27,6 @@ body {
 thumb{
 float:center;
 }
-
 .col-md-4 {
     position: relative;
     min-height: 1px;
@@ -42,18 +41,9 @@ float:center;
 </style>
 </head>
 <body>
-	<div ng-app="" ng-controller="shareController">
-		<div class="container">
-			<div class="row">
-				<div class="images">
-				<div class="col-md-4" ng-repeat="image in images">
-                 <a href="#/images/{{image.id}}" class="thumb"><img ng-src="{{image.imageUrl}}"></a>
-                   <a href="#/images/{{image.id}}"><div class="text-left">{{image.Name}}</div></a>
-<p><div class="arrow-up"><div class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{image.share}}% </div></div></p>
+	<div ng-view>
 </div>
-</div>
-</div>
-</div>
-</div>
+
+</script>
 </body>
 </html>
